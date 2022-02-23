@@ -1,0 +1,1084 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Free Windows Point of Sale. Easy to use, fast, modern and reliable retail system.">
+    <title>Release Notes - Aronium</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="..\..\favicons\apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="..\..\favicons\apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="..\..\favicons\apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="..\..\favicons\apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="..\..\favicons\apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="..\..\favicons\apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="..\..\favicons\apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="..\..\favicons\apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="..\..\favicons\apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="..\..\favicons\favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="..\..\favicons\android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="..\..\favicons\favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="..\..\favicons\favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="..\..\favicons\manifest.json">
+    <link rel="mask-icon" href="..\..\favicons\safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="..\..\favicons\favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="og:image" content="/content/images/fbshare.jpg">
+    <meta name="og:title" content="Free Windows Point of Sale">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@AroniumHQ">
+    <meta name="twitter:creator" content="@AroniumHQ">
+    <meta name="twitter:title" content="Aronium - Point of Sale Solution">
+    <meta name="twitter:description" content="Aronium is free Windows point of sale software. Fast, reliable and easy to use retail system.">
+    <meta name="twitter:image" content="https://www.aronium.com/content/images/twittercard.png">
+    <meta name="twitter:domain" content="https://www.aronium.com/?utm_source=twittercards&utm_medium=twittercards&utm_campaign=twitter_card">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+
+    
+    <link href="..\..\bundles\css.css?v=6iMkybsZEWasxjg9acWh6vcBanGB23P3UKXrO40ySkQ1" rel="stylesheet">
+
+    <link href="..\..\bundles\css\main.css?v=zg0xYXUa02TX3TO5HMX8g2PWlbhsJ92m3vrGFhe9kM01" rel="stylesheet">
+
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-74119720-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    <!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1202342073219411'); // Insert your pixel ID here.
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1202342073219411&ev=PageView&noscript=1"></noscript>
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="..\..\en.html"></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li><a href="..\features.html">Features</a></li>
+                    <li><a href="..\download.html">Download</a></li>
+                    <li><a href="..\faq.html">FAQ</a></li>
+                    <li><a href="https://help.aronium.com/hc">Help</a></li>
+                    <li><a href="https://my.aronium.com" rel="”nofollow”" target="_blank">Sign in</a></li>
+                    <li><a href="..\contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <!-- Page body -->
+    <div class="body-content">
+        
+
+
+
+<section class="page-title">
+    <div class="container">
+        <h1>Release Notes</h1>
+        <h4>
+            Aronium Release Notes &amp; Version History
+        </h4>
+    </div>
+</section>
+
+<section class="release-notes">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>1.37.0.3<small>February 5, 2022</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issues with Arabic translation where opening certain edit screens caused application to crash</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.37.0.2<small>February 5, 2022</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Price in a purchase document is initially set to zero instead of using the last purchase price</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.37.0.1<small>February 4, 2022</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Error printing &quot;Profit and margin&quot; report</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.37<small>February 3, 2022</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Support for the <a target="_blank" href="https://help.aronium.com/hc/en-us/articles/4406829564434-Moving-average-price">moving average price</a></li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to print customer code in A4 invoice</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Restore database application for Standalone version</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Separate application for managing installed plugins</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added &quot;High contrast&quot; and &quot;Dimmed&quot; color themes</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Keyboard on login screen will remamber the last used layot (numberic or alphabet)</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Simplified printer settings selection screen</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Arabic language</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Spanish language</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Proforma invoice appears in sales history</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Not able to import multiple taxes with the same tax rate</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.36<small>November 29, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Support for tempering prevention for Saudi Arabia <a href="e-invoice-ksa.html">E-invoice plugin</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.35.2<small>November 19, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Wrong labels in RTL receipt template in Networking version</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Removed simple CSV import</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.35.1<small>November 14, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Application crashes when printing locked sale</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Some charts in the Management dashboard are not displaying correctly in RTL layout</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.35<small>November 6, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Right to left reading direction support</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Search by document number in Sales history</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Dutch language</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated German language</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Data migration tool error messages and data validation</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Price and quantity print in right-to-left layout</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Not enough space for multiple taxes in invoice</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.34.1<small>October 8, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Error reported when printing invoice in Networking version</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.34<small>October 2, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to hide certain columns from invoice, select customer details to print and add default invoice footer</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Document search performance in Networking version</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Proforma invoice included in dashboard</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Scrolling products in promotion screen freezes the application</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.33.3.1<small>August 21, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Product groups in stock view are missing on refresh</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.33.3<small>August 20, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Prices displayed incorrectly in product list</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Cash drawer do not open in case of a negative sale</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.33.2<small>August 18, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to use negative prices and create negative sales</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Improved customer validation to prevent duplicate entries</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Icelandic translation</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Application crash on customer selection if customer discounts are applied</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Price tags label position</li>
+                </ul>
+            </div>        
+            <div class="col-sm-12">
+                <h2>1.33.1<small>August 9, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Disabled products not available in management section</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.33<small>August 7, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to select if receipt prints total items quantity or items count and how it is displayed on sale screen</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Optimized loading time for databases with large number of products</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated price tags, with ability to filter multiple products and print on roll paper</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Icelandinc translation</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Reprinting receipt on ESC/POS printer type prints current date instead of transaction date</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Wrong column title in Customers report</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Document not created if duplicate products are merged in CSV import</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.32.1<small>June 12, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Cash drawer settings are not saved</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.32<small>June 8, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added support for &quot;<a href="print-stations.html">Print stations plugin</a>&quot;</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Zoom in / out main window</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Arabic translation for reporting and named order</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added option to reset products, customers or documents separately in database reset section</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Guide not positioned correctly on screen size scaled other then 100%</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.31<small>May 16, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to print measurement unit in receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Brazilian Portuguese language</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Improvement focus managmenet in visual layout</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Kurdish translation</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Updated Turkish translation</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added Arabic translation to Stock Control module</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Document type not displayed in stock history view and stock history print</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Application crash on locked sale print</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>RTL invoice header prints outside page bounds</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Application crashes if root product group is added to customer discounts</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.30<small>March 6, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added support for &quot;<a href="stock-control.html">Stock control plugin</a>&quot;</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>All print templates are now using external translation files</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to translate document types</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to change font on invoice and other print templates</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Top customers not sorted by value on dashboard</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.29.1<small>January 1, 2021</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Negative stock control validation is not executed</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.29<small>December 31, 2020</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added age restriction to products</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added Kurdish translation</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Document filters moved to top in management section</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Improved Russian translation</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Using currency symbol in receipts is now turned on by default</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added ability to choose what sounds will be played in application</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Floor plans - Display tables owned by another users in different color and show a warning indicating it is already used</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Z reports not copied correctly when using data migration tool</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Drag &amp; Drop root group to inventory count document not loading all products in networking version</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Removed French translation</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.28.2<small>November 28, 2020</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Networking trial licenses to allow non-interrupted transition to subscription mode</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Minor changes in documents UI</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.28.1<small>November 12, 2020</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added ability to change font family and font size for &quot;POS 68/80&quot; print types</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Reset database results in bad product groups resolving in networking verison</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.28<small>November 3, 2020</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added support for &quot;<a href="named-order.html">Named order plugin</a>&quot;</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Automatically update credit payments on new payment added</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed error when trying to print purchase with discounts set</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Proforma invoice excluded from sale reports</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.27.2<small>September 5, 2020</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added purchase report listing all purchase documents</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Display trial expiration warning for networking version</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>View all users regardless of access level</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Prevent turning off print dialog screen if user has no access to settings</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Do not copy promotion applied discounts on repeat round action</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Do not cash drawer if order is voided</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.27.1<small>February 18, 2020</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Add advanced COM port settings for customer display</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Improved logging for print related issues</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added Hebrew language</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Add Bcc option for sending receipt via email</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Error when user is trying to edit promotion without items</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Additional pages in POS 58 print templates are not resized</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.27<small>October 14, 2019</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Memory management improvements</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Unable to print Z report if 100% discount is granted in networking version</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.26<small>September 21, 2019</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print stock history</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Russian translation update</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Spanish translation updates</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Application crashes if country code is missing in networking version</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Unable to save customer discounts in networking version</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.25<small>August 03, 2019</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Bulk documents delete</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Automatic database backup for standalone version</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added &quot;Ctrl+T&quot; shortcut to toggle search type on sales screen</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added proforma document type</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Inconsistent print ticket labels</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Russian translation update</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Payment type displays &quot;Change not allowed&quot; message</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Product code displaying product ID in edit document view</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Improved performance of products tree view</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>CSV import layout is broken in case an error is detected</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Dashboard displaying wrong top products</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Printing locked sale crashes networking version</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.24.1.2<small>June 12, 2019</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Payment type reports does not calculate refunds correctly</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Discounts granted report does not filter sales document and refunds correctly</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.24.1.1<small>May 01, 2019</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Profit &amp; Margin report prints wrong totals</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.24.1<small>April 27, 2019</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Wrong discount after save sale if discount before tax is used</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Customer validation reports duplicates on empty emails</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.24<small>April 23, 2019</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Option to display and print prices before or after tax</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to apply discount before or after tax</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Set image to product group</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to change POS or database in networking version</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to hide cost prices in stock view</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Shutdown PC directly from close dialog</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Search customer by phone number in payment screen</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print barcode on receipt printed using ESC/POS printer type </li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Automatic license update</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Indonesian translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>French translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Russian translation</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Import products lock database if existing products contains picture</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Cash drawer option for button bar not saved</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>User not printed in purchase discount report</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Stock control not executed on repeat round</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Unlimited resize of items grid</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Wrong tax item selected in tax view if taxes with same rate exists</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Scroll not available in comments selection screen</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Barcodes not imported with XML</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed taxes with 100% discount results in wrong discounts reports</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Displaying product IDs instead of codes in document views</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Split payments not printed in networking version</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Send email to self not working</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Application crash if discount is more then 3 digits in networking BETA version</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Set security access level on reprint receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added security for "Quick Inventory" in stock section</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Select multiple comments for a single product</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Automatic resize of product and product group images on save</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Choose onboarding language</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Merge or skip duplicates in CSV import</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Icelandic traslation improvements</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Turkish traslation improvements</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.23.2<small>November 25, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Subtotal calculated with minor difference in specific cases</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Promotion not triggered if start and end dates are the same</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Spanish invoice - bank details translated</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.23.1.1<small>November 03, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Subtotal printed incorrectly in right to left (RTL) receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Error printing items with discount in right to left (RTL) receipt template</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.23.1<small>October 18, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Subtotal printed incorrectly in receipt and invoice</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Discounts reports not printing values when 100% discount is applied</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.23<small>October 14, 2018</small></h2>
+                <div class="callout callout-warning callout-small margin-bottom-10">
+                    <h4>THIS VERSION CONTAINS BREAKING CHANGES!</h4>
+                    <a href="https://help.aronium.com/hc/en-us/community/posts/360022418471-Version-1-23" target="_blank">View breaking changes in this release</a>
+                </div>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to assign multiple tax rates to products</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Fixed tax rates</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Bulk product tax update</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Cash drawer keyboard shortcut key (Ctrl+D)</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Search customers by phone number in management section</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Turkish translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Italian translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print Z report on standard A4 printer</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Print barcode in receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Print notes in receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Option to print tax names in receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Promotions applied when items are added from search screen</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Promotions applied when quantity is set before adding promoted item to the sale</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Performance improvements in select customer screen</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Stock report improvements</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Allow more then 2 decimal places for tax rate value</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Print company tax number in invoice</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Skip kitchen ticket print on refund</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Prevent quick inventory for products marked as &quot;service&quot;</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Automatic promotion does not ends on specified time if end date is not set</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Cash In / Out not printed on X and Z report</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Customer details not printed on ESC/POS printer</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Items report breaks line incorrectly when printing items with long name</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Unable to scroll items in refund screen</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Customer display displays incorrect value when promoted item is added with quantity other then default</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Promoted item does not validats stock quantity</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Product comments screen skipped for promoted item</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Order total not updated after transferring items</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Cart discount not printed in locked sale on ESC/POS printer</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.22.2<small>July 30, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Voided items not print correctly on locked sale ticket</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.22.1<small>July 22, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Preventing stock update for service item</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Discounted price does not reflects on customer display in some scenarios</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Discounts not applied correctly in case same the item with the same discount is added multiple to the sale</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.22<small>June 07, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Portuguese translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Generate barcode for product</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Import child products groups using CSV</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>XML products export / import</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Partial refund - item selection in refund screen</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added security for management modules</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.21.1<small>April 22, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Speed up products search in POS search screen</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Right panel size was not saved correctly on resize in standard layout</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Tax rate not parsed correctly during import in some scenarios</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Export products with miltiple lines in comment breaks CSV</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.21<small>April 05, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Product notes and comments - print on kitchen ticket</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Reprint Z report</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Configurable button bar (applicable to visual layout only)</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Loss and damage items document type</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Export stock report to Excel</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Arabic  translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Icelandic translation</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Auto update of product cost price from purchase</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Display phone number in customer details on POS</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Reset database to clear starting cash entries</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Reset database to clear starting cash entries</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.20.0.1<small>March 21, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issue where Z report was not printed for &quot;POS 58/80&quot; printer type.</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.20<small>March 18, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Stock movement report added</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Discount report added</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print total discount on Z report</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Dutch reports translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added German translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added Spanish (Mexico) translations</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Customer display spanish translation</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Improved Spanish translation for starting cash report</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Price embedded weighing scale barcode</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added security level for user profile section</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added missing translations for Spanish language</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Incomplete print in long receipts (30+ items)</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed brackets in LTR receipt (POS 58/80)</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed wrong label in import customers screen</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Use English template in case of missing Stock report in current language</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.19<small>February 01, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Quantity discount</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Dutch translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Reports translated to Spanish</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print test page - receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Cash drawer test</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Sales by products group report</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to reset order number after Z report</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Choose which customer details will be printed in receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>More barcode types added to price tags</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Option to print order number in receipt</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Search products in stock module</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Case insensitive search by product code</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Subtotal printed in receipt templates even if print taxes option is turned off</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Save products as PDF</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.18.3<small>January 12, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Incorect Z report tax total when card discount is set to 100%</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.18.2<small>January 4, 2018</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Separate margins for POS 58/80 printer types</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Locked sale - removed title</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Minor bugs fixed in print settings</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.18.1<small>December 27, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Header not printed on some print operations</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.18<small>December 27, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Right to left reading receipt template</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Import and export customers</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Custom receipt numbering</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added ability to print short receipt number</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Open cash drawer before receipt is printed</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Add staring cash amount on closing day view</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.17.2<small>December 21, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Display zero quantity items in stock module</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Performance improvements in loading large number of documents</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.17.1<small>December 17, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Missing print bitmap option in printer settings</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.17<small>December 12, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to add (starting cash) or remove cash from cash register</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>New print templates for thermal printers with ability to print any language on receipt and other tickets</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Secure sales history</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Spanish invoice template</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Separate print settings for each operation</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added bank accounts to company and print bank details on invoice</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Ability to add items in a separate row during sales</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Reset Z report counter on database reset</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Purchase and Goods return vendor details - print template fixed</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.16<small>November 20, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Spanish translation</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Stock return document</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added numeric keyboard to payment screen</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Payment date - track when particular payment was made</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Price labels - print single product tag with multiple copies</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Romanian translation update - print templates included</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Prevent payments and document totals mismatch</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Display totals in document payment tab</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Load sales automatically in sales history</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Customer display - show tendered amount and change</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Visual alayout - use quick payments only for F12 button</li>
+
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Customer display - show welcome message on void order</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Use original customer in refund</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Preventing negative total when cart discount is used</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Unpaid purchase report - wrong "Supplier" label</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.15.2<small>November 07, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issue where quantity dialog was not opening when default quantity is not used</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.15.1<small>November 02, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issue causing application freeze in case items are added to the sale simultaneously</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.15<small>October 31, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Global due date for unpaid sales</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Ability to set due date per customer for unpaid sales</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Total cost value in stock report</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Improved unpaid sales report</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Mark refund as paid if the same payment type is used</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Removed logo, header and footer from printed kitchen ticket</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issue caused by touch pad</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.14.1<small>October 20, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print amount due on receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print amount due on invoice</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Change paid/unpaid status from document context menu</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Minor UI improvements</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issue with missing cost price</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed bug where document total is not set after products import</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed missing subtotal in payment form when discount is applied</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.14<small>October 07, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Reset admin password</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Company logo</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Credit payments (debt)</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Include Romanian language files</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Refund - Added ability to copy multiple payment types from refunded sale</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Unable to print zero total purchase document</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Translation loaded even if settings are not saved</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed tax rate label</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.13.3<small>October 05, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Aplication error when printing receipt with incomplete customer data</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.13.2<small>October 04, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed bug allowing user to leave modal dialog using arrow keys</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.13.1<small>September 29, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed bug allowing user to start another process before modal dialog is closed, resulting in application crash</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.13<small>September 25, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Customer display</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print receipt dialog and send receipt via email</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print price labels</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Auto focus search field in visual layout</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Print Pound sign in receipt - international character sets</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Stock validation on item quantity change</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.12<small>September 06, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print invoice (A4) directly after sales</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Set number of copies for receipt or invoice</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Reset database</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>View all open orders (floor plans only)</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Print table (order) number in receipt</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.11<small>August 26, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added option to print items count on receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added option to print receipt without rich formatting (ESC/POS printers)</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>If enabled, business day selection appears after closing the till</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.10.1<small>August 17, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Daily sales report</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added IsService column to CSV, specifying whether a product is a service</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>CSV import duplicates product groups with the same name</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Import exported products using basic import</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.10<small>August 12, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Quick inventory - stock change</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Advanced CSV import</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Set item color using right click</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added option to choose if tax totals are printed</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Standard layout - Quick search improvement</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.9<small>August 06, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Set product and product group background color</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Documents print preview</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>CSV import - ability to set stock quantities</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>CSV import - ability to set product groups</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added default discount type option</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Allow single item discount option was ignored</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.8<small>July 19, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Discount in absolute amount</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Add discount from sales screen</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print footer and header alignment option</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Product settings</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Allow selling item without sell price</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Keyboard navigation for selecting first and last item in sale</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Display product code in items list</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>New sale button in visual layout</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Sort product groups in visual layout</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.7.1<small>Jun 15, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Profit and margins report</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Error occurs when trying to to add new payment type</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.7<small>May 15, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Add product image</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Payment types - custom keyboard shortcuts</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Existing customer warning</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Standard layout - UI improvements</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Prevent disabling user with open orders</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.6<small>May 03, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Stock control - prevent negative quantity</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.5<small>April 28, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Guided tour</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.4.1<small>April 12, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Cash drawer support</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Automatically close voided order</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.4<small>April 4, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Product search in visual layout</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>CSV import improvements - accept special characters in product name</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issue with exception being thrown on adding products to inventory count</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.3<small>March 22, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>X/Z report</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print items report on closing register</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Refund/Return items from sales and sales history</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Reporting module</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Custom print templates</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Sales history - display all users</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Minor UI improvements</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Remember mangement navigation bar expand state</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added ability to disable customer</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Allow admin access regardless of user's access level</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.2.1<small>February 27, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Dashboard not displaying sales totals correctly</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.2<small>February 19, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Users and security</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Print improvements - notes and due date</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.1<small>February 14, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Multiple product barcodes</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added ability to create database backup</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added document due date</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Print templates improved</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Added missing translations</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>1.0<small>February 1, 2017</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Inventory management</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Update stock quantities</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Stock history</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Stock reports</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Print products</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Documents search - added additional filters</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Hide empty groups in touch screen mode</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Automatic database backup on update</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Export products</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added external document number</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Search button in touch screen mode</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Added ability to disable payment type</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Search products improvements</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Changed default document sort</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Optional business day selection</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Use system date time formats</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Clear customer from sales history</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>0.9.6<small>November 23, 2016</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Promotions and happy hour</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed exception on edit product group</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed issue on delete floor plan table</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>0.9.5.1<small>October 28, 2016</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Application crash on closing empty sales</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Cancelling discount screen applies entered values</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>0.9.5<small>September 27, 2016</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Override / translate receipt text</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Added ability to print currency in receipt</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Predefined customers discounts</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Loyalty cards</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Send feedback directly from application</li>
+
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Select layout during onboarding</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Minor text changes</li>
+
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Automatically update POS products on product change</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>0.9.4.3<small>September 12, 2016</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Set admin user profile and password during onboarding</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Fixed bug with special characters in Galeb fiscal printers (Serbia only)</li>
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Update user details bug when changing password</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>0.9.4.2<small>September 3, 2016</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-danger">Fixed</span></div>Use floor plans option</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>0.9.4.1<small>August 20, 2016</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Help links</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Hide virtual keyboard once dialog screen is closed</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <h2>0.9.4<small>August 15, 2016</small></h2>
+                <ul class="changes">
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Automatic updates</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>Import products from CSV</li>
+                    <li><div class="change-wrapper"><span class="label label-success">Added</span></div>About page</li>
+                    <li><div class="change-wrapper"><span class="label label-info">Improved</span></div>Product cost price and markup calculation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-logo">
+                    <a href="..\..\en.html"><img alt="Aronium" src="..\..\Content\images\logo-footer.png"></a>
+                </div>
+
+                <div class="col-md-3">
+                    <h4>Support</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="..\download.html">Download</a></li>
+                        <li><a href="..\faq.html">FAQ</a></li>
+                        <li><a href="http://help.aronium.com">Help center</a></li>
+                        <li><a href="release-notes.html">Release notes</a></li>
+                        <li><a href="..\newsletter.html">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h4>Company</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="..\about.html">About us</a></li>
+                        <li><a href="..\terms-of-use.html">Terms of use</a></li>
+                        <li><a href="..\contact.html">Contact</a></li>
+                    </ul>
+                    
+                </div>
+
+                <div class="col-md-3">
+                    <h4>aronium.com</h4>
+                    <ul class="list-unstyled info-list">
+                        <li><i class="fa fa-envelope"></i> <span>office@aronium.com</span></li>
+                        <li><i class="fa fa-map"></i> <span>Mileva Marić-Einstein 34, Belgrade, RS</span></li>
+                    </ul>
+
+                    <h4>Follow Us</h4>
+                    <ul class="list-unstyled list-inline links">
+                        <li><a title="Facebook" class="social-network" href="https://www.facebook.com/aronium" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a title="Twitter" class="social-network" href="https://www.twitter.com/AroniumHQ" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a title="YouTube" class="social-network" href="https://www.youtube.com/c/aronium" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a title="LinkedIn" class="social-network" href="https://www.linkedin.com/company/aronium" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="javascript:void(0)" title="Top" class="scrollup"><i class="fa fa-2x fa-angle-up"></i></a>
+
+    <script src="..\..\bundles\all?v=M2TnQK50RmY-lT6FVs73aB7VDH33jPN4zQ99N2BXIik1"></script>
+
+    
+</body>
+</html>
