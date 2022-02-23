@@ -1,0 +1,1 @@
+$(document).ready(function(){var n=$(".navbar").hasClass("header");$(window).scroll(function(){if(n){var t=$(this).scrollTop();t>0?t<650?($(".navbar").addClass("dark"),$(".navbar").addClass("transparent")):$(".navbar").removeClass("dark"):($(".navbar").addClass("dark"),$(".navbar").removeClass("transparent"))}})})
